@@ -1,0 +1,30 @@
+.navbar__container {
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav__client {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.nav__client h3 {
+    padding: 8px;
+    font-weight: 500;
+    font-size: 15px;
+}

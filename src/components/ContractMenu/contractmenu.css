@@ -1,0 +1,36 @@
+.contractmenu__container {
+    background-color: #F9F9F9;
+    height: 700px;
+    margin-left: 10px;
+}
+
+.contractmenu__container .contractmenu__menu {
+    padding: 10px;
+}
+
+.contractmenu__container .contractmenu__menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contractmenu__container .contractmenu__menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contractmenu__container .contractmenu__menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: none;
+    transition: border-bottom 0.5s;
+}
+
+.contractmenu__container .contractmenu__menu ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.contract__card {
+    margin-left: -27px;
+}
